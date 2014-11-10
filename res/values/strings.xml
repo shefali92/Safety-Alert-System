@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">SafetyAlertSystem</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+ 	<!-- Matching Procedure Variables -->
+    <item type="fraction" format="float" name="thresholdMatchingCoeff">0.85</item>
+    
+    <!-- recordingMessage Strings -->
+    <string name="recordCounterMsg">Record Counter : 0 iterations</string>
+    <string name="recordingScreenHeader">Record the Emergency Message Here</string>
+    <item type="integer" name="maxIterationsForRecording">5</item>
+    <string name="trainingMessage">*Same message must be recorded 5 times for better training</string>
+
+    <!-- testMessage Strings -->
+    <string name="testMessageScreenHeader">Test Your Message Here</string>
+    <string name="testMessageMatchingStatusLabel">Matching Status : </string>
+    <string name="testMessageMatchingStatusValue">NOT INITIALIZED</string>
+    <string name="testMessageMatchingCorrLabel">Matching Percentage : </string>
+    <string name="testMessageMatchingCorrValue">0.0 %</string>
+    <string name="testMessageMatchingColor">black</string>
+
+    <!-- gpsLocation Strings -->
+    <string name="gpsLocationScreenHeader">Tracked Location Details</string>
+    <string name="gpsLocationLocality">LOCALITY : </string>
+    <string name="gpsLocationCity">CITY : </string>
+    <string name="gpsLocationDistrict">ZONE : </string>
+    <string name="gpsLocationCountry">COUNTRY : </string>
+    <string name="gpsLocationStatus">Status : NOT INITIALIZED</string>
+    
+     <!-- SMS Strings -->
+    <string name="smsHeader">SMS sending details</string>
+
+    <!-- aboutScreen Strings -->
+    <string name="aboutStringOld"> 
+	    This is about Safety Alert System 
+	    which helps user to trigger an alert 
+	    signal and send to Emergency Services and 
+	    configured contact numbers</string>
+    <string name="aboutString">
+       Safety Alert System</string>
+       <string name="about_label">
+       Safety Alert System</string>
+	<string name="aboutStringLine2">
+		It is an android application which is intended to provide help from Emergency Services or any configured contact number whenever a person faces 
+		an emergency situation.  This is done by identifying the precorded voice of the user, tracing its location and sending SMS containing the nearest identifiable location,
+		to Emergency contact numbers.</string>
+	<string name="aboutStringLine3">
+		Architecture Support</string>
+	<string name="aboutStringLine4">
+			Hybrid Architecture: Pipe and Filter implemented on Layered Android Structure
+			Programming Language: Java 
+			Operating system: Android - Multi User Linux System
+			Minimum SDK : API Level 8, Android 2.2 (Froyo)
+			Maximum SDK : API Level 17, Android 4.2 (Jelly Bean)
+	</string>
+	<string name="aboutStringLine5">
+			Revision
+	</string>
+	<string name="aboutStringLine6">
+			Version 1.0
+	</string>
+	<string name="aboutStringLine7">
+			Credits
+	</string>
+	<string name="aboutStringLine8">
+			Saurabh Verma, Chandra Gaurav Sharma, Shivam, Shefali Garg, Krishnika Agarwal, Aditi Singhal
+	</string>
+    
+	<string name="about_title"> About Safety Alert System</string>
+	
+	
+	<!--  extra Strings -->
+	 <string name="welcome">!!! Welcome to Safety Alert System !!!</string>
+	 <string name="exit_label"> Exit</string>
+</resources>

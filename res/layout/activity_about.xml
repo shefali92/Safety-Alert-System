@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:padding="10dip" >
+
+<TextView
+    android:id="@+id/about_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:layout_marginLeft="20dp"
+    android:text="@string/aboutString"
+    android:textColor="@color/black" />
+
+<TextView
+    android:id="@+id/TextView04"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/TextView03"
+    android:layout_alignBottom="@+id/TextView03"
+    android:layout_centerHorizontal="true"
+    android:text="@string/aboutStringLine6"
+    android:textColor="@color/black" />
+
+<TextView
+    android:id="@+id/TextView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/about_content_line2"
+    android:layout_below="@+id/about_content_line2"
+    android:layout_marginTop="10dp"
+    android:text="@string/aboutStringLine3"
+    android:textColor="@color/black" />
+
+<TextView
+    android:id="@+id/TextView06"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/TextView05"
+    android:layout_below="@+id/TextView05"
+    android:text="@string/aboutStringLine8"
+    android:textColor="@color/black" />
+
+<TextView
+    android:id="@+id/TextView05"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/TextView03"
+    android:layout_below="@+id/TextView03"
+    android:layout_marginTop="10dp"
+    android:text="@string/aboutStringLine7"
+    android:textColor="@color/black" />
+
+<TextView
+    android:id="@+id/about_content_line2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/about_content"
+    android:layout_below="@+id/about_content"
+    android:layout_marginTop="2dp"
+    android:text="@string/aboutStringLine2"
+    android:textColor="@color/black" />
+
+<TextView
+    android:id="@+id/TextView02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/TextView01"
+    android:layout_below="@+id/TextView01"
+    android:text="@string/aboutStringLine4"
+    android:textColor="@color/black" />
+
+<TextView
+    android:id="@+id/TextView03"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/TextView02"
+    android:layout_below="@+id/TextView02"
+    android:text="@string/aboutStringLine5"
+    android:textColor="@color/black" />
+
+</RelativeLayout>
